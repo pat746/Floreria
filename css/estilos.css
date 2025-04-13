@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.all-content {
+    background: rgb(246, 244, 244);
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #e0a3a3;
+    border-radius: 30px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/*--navbar start*/
+
+#navbar {
+    background-color: orchid;
+}
+
+#logo img {
+    border-radius: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 1.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form ul li a {
+    background: transparent;
+    color: rgb(241, 230, 230);
+    border-radius: 10px;
+    margin: 2px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#navbar form ul li a:hover {
+    background: #f7f5f2;
+    color: #080707;
+}
+
+#navbar form li a {
+    background: transparent;
+    color: rgb(241, 230, 230);
+    border-radius: 10px;
+    margin: 2px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#navbar form li a:hover {
+    background: #f7f5f2;
+    color: #080707;
+}
+
+#navbar form li ul a {
+    color: #080707;
+    background: #e1d4d4;
+}
+
+#navbar form li ul a:hover {
+    background: #080707;
+    color: #ada4a4;
+}
+
+#inicio {
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(12, 12, 12)), url(floreria.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%
+}
+
+#inicio .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#inicio .content h1 {
+    font-size: 50px;
+    color: white;
+    transition: 1s linear;
+}
+
+#inicio .content h3 {
+    font-size: 30px;
+    color: white;
+    transition: 1s linear;
+}
+
+#inicio .content p {
+    margin-top: 10px;
+    color: white;
+    transition: 2s linear;
+}
+
+#inicio .content .redes a {
+    color: azure;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid azure;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 30px 2px;
+    font-size: 30px;
+    transition: 1S;
+}
+
+.inicio .Contenido .redes a:hover {
+    background-color: #080707;
+}
+
+#info {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(240, 164, 164), rgba(246, 131, 131, 0.993));
+}
+
+#info .container {
+    padding-top: 50px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    background: linear-gradient( rgba(241, 236, 236, 0.951), rgb(255, 255, 255));
+    color: #080707;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#info img {
+    width: 300px;
+    height: 300px;
+}
+
+#info .card {
+    left: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#info .card img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:982px) {
+    #info p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:766px) {
+    #info p {
+        font-size: 15px;
+    }
+    #info {
+        height: 120vh;
+    }
+}
+
+
+/*productos*/
+
+#productos {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 30px;
+    color: #f0a2a2;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(235, 214, 211);
+}
+
+#container2 {
+    margin-top: 20px;
+}
+
+#productos .card {
+    box-shadow: #e1bdbd 0px 8px 24px;
+}
+
+.star i {
+    color: #f0a2a2;
+}
+
+#productos p {
+    text-align: center;
+    font-size: 15px;
+    color: #090005;
+    padding-top: 10px;
+}
+
+#productos {
+    color: #f0a2a2;
+}
+
+#productos .card button {
+    color: #080707;
+    background: transparent;
+    border: 2px solid palevioletred;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#productos .card button:hover {
+    background-color: violet;
+    color: white;
+}
+
+
+/* contacto*/
+
+#contacto {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contacto .container {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, salmon 20%);
+    border-radius: 10px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- SECCIÓN DE PRODUCTOS -->
+<section id="productos">
+  <div class="container">
+      <div class="heading2">Productos</div>
+  </div>
+  <div class="container" id="container2">
+      <div class="row">
+          <!-- Producto 1 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/orquideas.jpeg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3>Orquídeas</h3>
+                      <p>S/30</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Orquídeas', 30)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Producto 2 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="girasoles.jpeg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3>Girasoles</h3>
+                      <p>S/25</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Girasoles', 25)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Producto 3 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/rosas-azules.jpg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3>Rosales Azules</h3>
+                      <p>S/20</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Rosales Azules', 20)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Producto 4 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/rosas-rojas.jpeg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h3>Rosas Rojas</h3>
+                      <p>S/30</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Rosas Rojas', 30)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Segunda fila de productos -->
+      <div class="row mt-4">
+          <!-- Producto 5 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/iris.png" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h4>Iris</h4>
+                      <p>S/50</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Rosas Azules', 50)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Producto 6 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/margarita3.jpeg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h4>Margaritas</h4>
+                      <p>S/30</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Margaritas', 30)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Producto 7 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/loto2.jpg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h4>Flor de Loto</h4>
+                      <p>S/60</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Flor de Loto', 60)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Producto 8 -->
+          <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                  <img src="img/dalia.jpeg" alt="">
+                  <div class="card-body">
+                      <div class="star text-center">
+                          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                      </div>
+                      <h4>Dalia</h4>
+                      <p>S/40</p>
+                      <input type="number" class="cantidad" value="1" min="1">
+                      <button onclick="agregarAlCarrito(this, 'Dalia', 40)">Agregar al carrito</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- FORMULARIO OCULTO PARA ENVIAR PRODUCTOS -->
+<form id="carrito-form" action="secciones/carrito.php" method="post">
+  <input type="hidden" id="productos-seleccionados" name="productos" value="">
+</form>
+
+<!-- SCRIPTS -->
+
+</body>
+</html>

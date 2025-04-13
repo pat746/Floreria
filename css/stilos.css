@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.sidebar {
+  min-height: 100vh;
+  background-color: rgba(248, 215, 218, 0.95);
+  padding-top: 1rem;
+  position: fixed;
+  width: 240px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 20px;
+  color: #842029;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  background-color: #f1b0b7;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 15px;
+  min-height: 100vh;
+}
